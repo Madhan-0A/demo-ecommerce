@@ -10,3 +10,12 @@ class Cart{
         System.out.println("Total items: "+item);
     }
 }
+
+public class mg{
+    public static void main(String[] args) {
+        Cart cart1 = new Cart();
+        cart1.addToCart(100);
+        cart1.addToCart(200);
+        cart1.printstatus();
+    }
+}
